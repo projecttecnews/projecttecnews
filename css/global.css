@@ -17,7 +17,7 @@
     --bg-color: #0F172A;
     --stroke-color: #1E293B;
 
-    /* Textos */
+    /* Cor dos Textos */
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
 
@@ -25,3 +25,10 @@
     --font-base: "Archivo", sans-serif;
 
 }
+
+/* Body */
+body {
+    font-family: var(--font-base);
+    color: var(--text-color-primary);
+}
+
