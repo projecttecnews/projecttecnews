@@ -20,4 +20,8 @@
     /* Textos */
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
+
+    /* Fontes */
+    --font-base: "Archivo", sans-serif;
+
 }
