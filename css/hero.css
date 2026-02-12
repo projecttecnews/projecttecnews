@@ -9,3 +9,21 @@ body {
     background: #071a2f;
     color: #fff;
 }
+
+.categories {
+    display: flex;
+    gap: 30px;
+    padding: 20px 40px;
+    background: #081f3a;
+}
+
+.categories a {
+    color: #9fb3c8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.categories a:hover {
+    color: #ffffff;
+}
