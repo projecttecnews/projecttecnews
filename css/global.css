@@ -58,3 +58,10 @@ body {
     background-color: var(--background-color);
 }
 
+span {
+    color: var(--brand-color-dark);
+    text-transform: uppercase;
+    font-size: var(--span-size);
+    line-height: var(--span-height);
+    font-weight: var(--span-weight);
+}
