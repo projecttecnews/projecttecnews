@@ -1,0 +1,13 @@
+.sessao3{
+    display: grid;
+    grid-template-columns: 2f 1fr;
+}
+
+.destaques-ia{
+    display: grid;
+    grid-template-rows: 5fr;
+}
+
+.vc-viu{
+    display: grid;
+}
