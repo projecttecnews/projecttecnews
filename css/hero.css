@@ -5,3 +5,7 @@
     font-family: var(--heading2-weight);
 }
 
+body {
+    background: #071a2f;
+    color: #fff;
+}
