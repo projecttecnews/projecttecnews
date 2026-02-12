@@ -1,0 +1,67 @@
+/* Configurações Globais */
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root (Definir as Cores) */
+:root {
+    /* Produto */
+    --brand-color-light: #60a5fa;
+    --brand-color-dark: #1D4ED8;
+
+    /* Base */
+    --background-color: #0F172A;
+    --stroke-color: #1E293B;
+
+    /* Cor dos Textos */
+    --text-color-primary: #F1F5F9;
+    --text-color-secondary: #CBD5E1;
+
+    /* Fonte principal */
+    --font-base: "Archivo", sans-serif;
+
+    /* Heading 1 */
+    --heading1-size: 24px;
+    --heading1-height: 135%;
+    --heading1-weight: 800; /* ExtraBold */
+
+    /* Heading 2 */
+    --heading2-size: 16px;
+    --heading2-height: 140%;
+    --heading2-weight: 800; /* ExtraBold */
+
+    /* Heading 3 */
+    --heading3-size:14px;
+    --heading3-height: 140%;
+    --heading3-weight: 800; /* ExtraBold */
+
+    /* Span */
+    --span-size: 14px;
+    --span-height: 145%;
+    --span-weight: 600; /* SemiBold */
+
+    /* Paragrafo */
+    --paragraph-size: 14px;
+    --paragraph-height: 160%;
+    --paragraph-weight: 400; /* Regular */
+
+}
+
+/* Body */
+body {
+    font-family: var(--font-base);
+    color: var(--text-color-primary);
+    background-color: var(--background-color);
+}
+
+span {
+    color: var(--brand-color-dark);
+    text-transform: uppercase;
+    font-size: var(--span-size);
+    line-height: var(--span-height);
+    font-weight: var(--span-weight);
+}
