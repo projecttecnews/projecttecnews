@@ -14,7 +14,7 @@
     --brand-color-dark: #1D4ED8;
 
     /* Base */
-    --bg-color: #0F172A;
+    --background-color: #0F172A;
     --stroke-color: #1E293B;
 
     /* Cor dos Textos */
@@ -30,5 +30,6 @@
 body {
     font-family: var(--font-base);
     color: var(--text-color-primary);
+    background-color: var(--background-color);
 }
 
