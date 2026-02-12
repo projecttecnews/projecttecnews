@@ -1,58 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<!-- head do código -->
-<head> 
+<html lang="pt-br">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TECHNEWS</title>
-    <center><h2>TECHNEWS</h2></center>
-</head> 
-<!-- body do código -->
+    <title>Tech News</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-    
-    <div id="menu"></div>
-        <div>Inteligência Artificial | Blockchain | Hologramas | Internet | Vestíveis | Realidade Aumentada | Realidade Virtual</div>
-    </div>  
-    <!-- linha divisória -->
-    <hr>
 
-    <div id="robotica">
-        <h1>ROBÓTICA</h1>
-        <p><strong>Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.</strong></p>
-    </div>
+<header class="topbar">
+    <div class="menu">☰ Menu</div>
+    <div class="logo">TECH NEWS</div>
+    <div class="search">Buscar </div>
+</header>
 
-    <hr>
+<nav class="categories">
+    <a href="#">Inteligência Artificial</a>
+    <a href="#">Blockchain</a>
+    <a href="#">Hologramas</a>
+    <a href="#">Internet</a>
+    <a href="#">Vestíveis</a>
+    <a href="#">Realidade Aumentada</a>
+    <a href="#">Realidade Virtual</a>
+</nav>
 
-    <div id="hologramas">
-        <h3>HOLOGRAMAS</h3>
-        <p>Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!</p>
-    </div>
+<main class="container">
 
-    <div id="vestiveis">
-        <h3>VESTÍVEIS</h3>
-        <p>Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o...</p>
-    </div>
+    <!-- destaque principal -->
+    <section class="grid-top">
+        <div class="card large">
+            <img src="assets/a1dfeb1517841326e9a8025d8fe8409d7f596601.png">
+            <div class="overlay">
+                <span class="tag">ROBÓTICA</span>
+                <h2>Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.</h2>
+            </div>
+        </div>
 
-    <div id="internet">
-        <h3>INTERNET</h3>
-        <p>Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comuni...</p>
-    </div>
+        <div class="side-cards">
+            <div class="card small">
+                <img src="assets/hologramas.png">
+                <div class="overlay">
+                    <span class="tag">HOLOGRAMAS</span>
+                    <p>Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!</p>
+                </div>
+            </div>
 
-    <div id="realidade-virtual">
-        <h3>REALIDADE VIRTUAL</h3>
-        <p>Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem trad...</p>
-    </div>
+            <div class="card small">
+                <img src="assets/internet.png">
+                <div class="overlay">
+                    <span class="tag">INTERNET</span>
+                    <p>Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.</p>
+                </div>
+            </div>
 
-    <hr>
+            <div class="card small">
+                <img src="assets/vestiveis.png">
+                <div class="overlay">
+                    <span class="tag">VESTÍVEIS</span>
+                    <p>Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o bem-estar pessoal.</p>
+                </div>
+            </div>
 
-    <!-- seção lais Lidas -->
-    <div id="mais-lidas">
-        <p><strong>Mais lidas da semana</strong></p>
-        <div>Ver tudo →</div>
-    </div>
+            <div class="card small">
+                <img src="assets/realidade.png">
+                <div class="overlay">
+                    <span class="tag">REALIDADE VIRTUAL</span>
+                    <p>Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tradicional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<hr>
+
+    <!-- seção mais lidas -->
+    <section class="popular">
+        <div class="section-header">
+            <h3>Mais lidas da semana</h3>
+            <a href="#">Ver tudo →</a>
+        </div>
+
+        <div class="grid-bottom">
+            <div class="card">
+                <img src="assets/veiculos.png">
+                <div class="overlay">
+                    <span class="tag">VEÍCULOS</span>
+                    <p>Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoais.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/hologramas2.png">
+                <div class="overlay">
+                    <span class="tag">HOLOGRAMAS</span>
+                    <p>Plataforma de videoconferência apresenta nova função de hologramas, tornando as chamadas virtuais mais realistas e envolventes.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/rv2.png">
+                <div class="overlay">
+                    <span class="tag">REALIDADE VIRTUAL</span>
+                    <p>Nova geração de consoles de videogame é lançada, trazendo gráficos ultra-realistas e experiências de jogo totalmente envolventes.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/internet2.png">
+                <div class="overlay">
+                    <span class="tag">INTERNET</span>
+                    <p>Projeto busca oferecer internet de alta velocidade em áreas remotas através de satélites.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
 
 </body>
 </html>
-
-
-
