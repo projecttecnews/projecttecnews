@@ -1,13 +1,14 @@
 .sessao3{
     display: grid;
-    grid-template-columns: 2f 1fr;
+    grid-template-columns: 2fr 1fr;
+    width: 1216px;
+    height: 856px;
 }
 
 .destaques-ia{
-    display: grid;
-    grid-template-rows: 5fr;
+    width: 695px;
 }
 
 .vc-viu{
-    display: grid;
+    width: 488px;
 }
