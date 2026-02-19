@@ -27,3 +27,13 @@ body {
 .categories a:hover {
     color: #ffffff;
 }
+
+.sessao1 {
+    padding: 40px;
+}
+
+.grid-top {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+    gap: 24px;
+}
