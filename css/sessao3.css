@@ -3,12 +3,43 @@
     grid-template-columns: 2fr 1fr;
     width: 1216px;
     height: 856px;
+    gap: 32px;
 }
 
 .destaques-ia{
-    width: 695px;
+    display: grid;
+    grid-template-rows: 5fr;
+    max-width: 695px; 
+    gap: 24px;
 }
 
 .vc-viu{
-    width: 488px;
+    max-width: 488px;
 }
+
+.cabecalho-destaques{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 32px;
+    max-width: 696px;
+
+    
+}
+
+.cabecalho-destaques span{
+    color: var(--text-color-secondary);
+}
+
+.cabecalho-destaques svg{
+    fill: var(--text-color-secondary);
+
+    margin-left: -300px;
+}
+
+.noticia-ia {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
