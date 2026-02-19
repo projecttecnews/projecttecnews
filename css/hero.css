@@ -73,4 +73,15 @@ body {
     );
 }
 
+.tag {
+    display: inline-block;
+    background: #2563eb;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    width: fit-content;
+}
 
