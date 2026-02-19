@@ -1,0 +1,40 @@
+.sessao2{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+}
+.titulo> p{
+    color: var(--text-color-secondary);
+}
+.titulo{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+
+.imagens{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 10px;
+    
+}
+
+.img1, .img2 ,.img3 , .img4 {
+    display:block;
+    max-width: 100%;
+}
+
+img {
+    height: 160px;
+    width: 292px;
+}
+.p2{
+    text-align: right;
+    padding-right: 8px;
+}
+
+span {
+   display: block;
+   
+   background-color: aqua;
+}
