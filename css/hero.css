@@ -1,90 +1,21 @@
- img {
-            max-width: 100%;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px
-        }
+img {
+    max-width: 100%;
+}
 
-        header {
-            display: flex;
-            justify-content: space-between;
-        }
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+ }
 
 
-        .topo {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
+.imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 
-
-        .side-cards {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
-
-        h1 {
-            font-size: 70px;
-        }
-
-        .bi-list {
-            display: none;
-        }
-
-
-        @media screen and (max-width: 768px){
-            .sessao1{
-                grid-template-columns: 1fr;
-            }
-
-                h1 {
-                    font-size: 40px;
-                }
-        }
-
-        @media screen and (max-width: 478px){
-            .sessao1 {
-                grid-template-columns: 1fr;
-            }
-
-                h1 {
-                    font-size: 20px;
-                }
-
-                    .menu {
-                        display: none;
-                    }
-
-                    .bi-list {
-                        display: block;
-                    }
-
-                    header {
-                        display: block;
-                    }
-                    .logo {
-                        display: flex;
-                        justify-content: space-between;
-                    }
-
-                    .input {
-                        margin-top: 20px;
-                        width: 100%;
-                    }
-
-        }
-
-       
-
-
-
-
-
-.tag {
-    display: inline-block;
+.tag {    display: inline-block;
     background: #2563eb;
     color: #fff;
     font-size: 12px;
@@ -93,19 +24,16 @@
     border-radius: 6px;
     margin-bottom: 12px;
     width: fit-content;
+    position: absolute;
 }
 
+.card1 {
 
-.large {
-    height: 520px;
+    position:relative;
 }
 
-.side-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
+h2{
+    margin-top: -30px;
+    position: absolute;
 }
 
-.small {
-    height: 248px;
-}
