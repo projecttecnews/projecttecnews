@@ -20,11 +20,14 @@
 }
 
 .img1, .img2 ,.img3 , .img4 {
+
+    position: relative;
     display:block;
     max-width: 100%;
 }
 
 img {
+    
     height: 160px;
     width: 292px;
 }
@@ -34,7 +37,9 @@ img {
 }
 
 span {
-   display: block;
-   
-   background-color: aqua;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    height: 20px;
+    border-radius: 4px;
 }

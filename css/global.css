@@ -59,9 +59,12 @@ body {
 }
 
 span {
-    color: var(--brand-color-dark);
+    background-color: var(--brand-color-dark);
+    color: var(--text-color-primary);
     text-transform: uppercase;
     font-size: var(--span-size);
     line-height: var(--span-height);
     font-weight: var(--span-weight);
+    
 }
+
