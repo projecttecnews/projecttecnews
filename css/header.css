@@ -1,0 +1,48 @@
+.container {
+    background-color: var(--background-color);
+    color: var(--text-color-primary);
+    font-family: var(--font-base);
+}
+
+/* Top header - flex */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+/* DIV menu e search */
+.menu, .search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+/* H1 ajuste de cor */
+.top-header h1 {
+    color: #4da3ff;
+}
+
+/* Navbar - ajustes do gap de links e espaçamento */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 14px;
+}
+
+/* Tirar o tracejado do link e ajuste de cor*/
+.navbar a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+    font-size: var(--paragraph-size);
+}
+
+/* Linha de separação do top header e navbar */
+hr {
+    border: none;
+    height: 1px;  /* tamanho da linha */
+    background-color: var(--stroke-color); /* cor da linha */
+}
