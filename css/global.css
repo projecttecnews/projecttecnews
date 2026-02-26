@@ -68,3 +68,27 @@ span {
     
 }
 
+h1{
+    font-size: var(--heading1-size);
+    height: var(--heading1-height);
+    font-weight: var( --heading1-weight);
+    
+}
+
+h2{
+    font-size: var(--heading2-size);
+    height: var(--heading2-height);
+    font-weight: var(--heading2-weight);
+}
+ 
+h3{
+    font-size: var(--heading3-size);
+    height: var(--heading3-height);
+    font-weight: var(--heading3-weight);
+}
+
+p{
+    font-size: var(--paragraph-size);
+    height: var(--paragraph-height);
+    font-weight:var(--paragraph-weight) ;
+}
