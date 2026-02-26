@@ -1,0 +1,111 @@
+ img {
+            max-width: 100%;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .topo {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+
+        .side-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        h1 {
+            font-size: 70px;
+        }
+
+        .bi-list {
+            display: none;
+        }
+
+
+        @media screen and (max-width: 768px){
+            .sessao1{
+                grid-template-columns: 1fr;
+            }
+
+                h1 {
+                    font-size: 40px;
+                }
+        }
+
+        @media screen and (max-width: 478px){
+            .sessao1 {
+                grid-template-columns: 1fr;
+            }
+
+                h1 {
+                    font-size: 20px;
+                }
+
+                    .menu {
+                        display: none;
+                    }
+
+                    .bi-list {
+                        display: block;
+                    }
+
+                    header {
+                        display: block;
+                    }
+                    .logo {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    .input {
+                        margin-top: 20px;
+                        width: 100%;
+                    }
+
+        }
+
+       
+
+
+
+
+
+.tag {
+    display: inline-block;
+    background: #2563eb;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    width: fit-content;
+}
+
+
+.large {
+    height: 520px;
+}
+
+.side-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.small {
+    height: 248px;
+}
