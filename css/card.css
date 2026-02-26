@@ -1,45 +1,39 @@
 .sessao2{
-    display:grid;
-    grid-template-rows: 1fr 1fr;
+    display:grid;/*Transforma um elemento em um container de grade*/
+    grid-template-rows: 1fr 1fr; /* Divide  a div em 2 linhas*/ 
 }
 .titulo> p{
-    color: var(--text-color-secondary);
+    color: var(--text-color-secondary); /*Usa uma variavel para mudar a cor do paragrafo */
 }
 .titulo{
-    display:grid;
-    grid-template-columns: 1fr 1fr ;
+    display:grid;/*Transforma um elemento em um container de grade*/
+    grid-template-columns: 1fr 1fr ;/*Divide a div em 2 colunas*/
 }
 
 
 .imagens{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0 auto;
-    gap: 10px;
+    display:grid;/*Transforma um elemento em um container de grade*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;/*Divide a div em 4 colunas*/
+    margin: 0 auto;/*Centralizar um elemento horizontalmente*/
+    gap: 10px;/*Da espaçamento */
     
 }
 
 .img1, .img2 ,.img3 , .img4 {
-
-    position: relative;
-    display:block;
-    max-width: 100%;
+    position: relative;/*Define o elemento como referência para posicionar outros elementos dentro dele.*/
+    display:block;/*Faz o elemento ocupar uma linha inteira e aceitar largura e altura.*/
+    max-width: 100%;/*Impede o elemento de ficar maior que o tamanho do pai.*/
 }
 
 img {
-    
-    height: 160px;
-    width: 292px;
-}
-.p2{
-    text-align: right;
-    padding-right: 8px;
+    height: 160px;/*Altura da imagem*/
+    width: 292px;/*Largura da imagem*/
 }
 
 span {
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    height: 20px;
-    border-radius: 4px;
+    position: absolute;/*permite posicionar o elemento livremente, sobrepondo outros*/
+    top: 8px;/*Quantos px de distancia da direita*/
+    left: 8px;/*Quantos px de distancia da esquerda*/
+    height: 20px;/*Altura do span*/
+    border-radius: 4px;/*Deixa a borda arredondada*/
 }
