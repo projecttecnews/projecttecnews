@@ -2,7 +2,7 @@
     display:grid;/*Transforma um elemento em um container de grade*/
     grid-template-rows: 1fr 1fr; /* Divide  a div em 2 linhas*/ 
 }
-.titulo> p{
+.span2, .span3{
     color: var(--text-color-secondary); /*Usa uma variavel para mudar a cor do paragrafo */
 }
 .titulo{
@@ -30,10 +30,14 @@ img {
     width: 292px;/*Largura da imagem*/
 }
 
-span {
+.span1 {
     position: absolute;/*permite posicionar o elemento livremente, sobrepondo outros*/
     top: 8px;/*Quantos px de distancia da direita*/
     left: 8px;/*Quantos px de distancia da esquerda*/
     height: 20px;/*Altura do span*/
     border-radius: 4px;/*Deixa a borda arredondada*/
+}
+
+.span3{
+    margin-left: 695px;
 }

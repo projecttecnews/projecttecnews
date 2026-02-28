@@ -47,7 +47,7 @@
     /* Paragrafo */
     --paragraph-size: 14px;
     --paragraph-height: 160%;
-    --paragraph-weight: 400; /* Regular */
+    --paragraph-weight: 700; /* Regular */
 
 }
 
@@ -58,7 +58,7 @@ body {
     background-color: var(--background-color);
 }
 
-span {
+.span1 {
     background-color: var(--brand-color-dark);
     color: var(--text-color-primary);
     text-transform: uppercase;
@@ -66,6 +66,9 @@ span {
     line-height: var(--span-height);
     font-weight: var(--span-weight);
     
+}
+.span2{
+    /*colocar coisa aqui*/
 }
 
 h1{
