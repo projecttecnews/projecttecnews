@@ -18,6 +18,8 @@
     border: none;
     height: 1px;
     background-color: var(--stroke-color);
+    margin-bottom: -100px;
+    
 }
 
 
@@ -26,7 +28,9 @@
     justify-content: space-between;
     align-items: flex-end;
     min-height: 32px;
-    max-width: 696px;  
+    max-width: 696px; 
+    margin-top: -110px; 
+
 }
 
 .cabecalho-destaques span{
