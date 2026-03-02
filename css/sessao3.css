@@ -39,8 +39,9 @@
 
 .cabecalho-destaques svg{
     fill: var(--text-color-secondary);
-
-    margin-left: -300px;
+    max-width: 200px;
+    margin-left: -280px;
+    padding-top: 10px;
 }
 
 .noticias-ia {
@@ -112,31 +113,6 @@
     max-width:488px;
     min-height: 544px;
     gap: 24px;
-}
-
-.cabecalho-vc-viu {
-    max-width: 488px;
-    min-height: 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.cabecalho-vc-viu hr{
-    border: none;
-    height: 1px;
-    background-color: var(--stroke-color);
-    
-}
-
-.cabecalho-vc-viu span{
-    color: var(--text-color-secondary);
-    margin-left: -319px;
-}
-
-.cabecalho-vc-viu a{
-    color: var(--text-color-secondary);
-    font-family: var(--font-base);
 }
 
 .noticias-vc-viu{
