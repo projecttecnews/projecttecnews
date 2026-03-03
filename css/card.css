@@ -41,3 +41,8 @@ img {
 .span3{
     margin-left: 695px;
 }
+
+.titulo svg {
+    fill: var(--text-color-secondary);/*Usa uma variavel para mudar a cor do svg*/
+    padding-top: 10px;
+}
