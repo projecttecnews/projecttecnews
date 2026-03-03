@@ -39,10 +39,16 @@
     --heading3-height: 140%;
     --heading3-weight: 800; /* ExtraBold */
 
-    /* Span */
-    --span-size: 14px;
-    --span-height: 145%;
-    --span-weight: 600; /* SemiBold */
+    /* Span 1 */
+    --span1-size: 12px;
+    --span1-height: 145%;
+    --span1-weight: 500; /* SemiBold */
+   
+    /* Span 2*/
+    --span2-size: 14px;
+    --span2-height: 145%;
+    --span2-weight: 600; /* SemiBold */
+
 
     /* Paragrafo */
     --paragraph-size: 14px;
@@ -63,16 +69,16 @@ body {
     background-color: var(--brand-color-dark);
     color: var(--text-color-primary);
     text-transform: uppercase;
-    font-size: var(--span-size);
-    line-height: var(--span-height);
-    font-weight: var(--span-weight);
+    font-size: var(--span1-size);
+    line-height: var(--span1-height);
+    font-weight: var(--span1-weight);
     
 }
 .span2{
     text-transform: uppercase;
-    font-size: var(--span-size);
-    line-height: var(--span-height);
-    font-weight: var(--span-weight);
+    font-size: var(--span2-size);
+    line-height: var(--span2-height);
+    font-weight: var(--span2-weight);
     color: var(--text-color-secondary);
     }
 
