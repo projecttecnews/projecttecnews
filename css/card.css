@@ -1,13 +1,18 @@
 .sessao2{
     display:grid;/*Transforma um elemento em um container de grade*/
     grid-template-rows: 1fr 1fr; /* Divide  a div em 2 linhas*/ 
+    gap: 24px;
 }
 .span2, .span3{
     color: var(--text-color-secondary); /*Usa uma variavel para mudar a cor do paragrafo */
 }
+
 .titulo{
-    display:grid;/*Transforma um elemento em um container de grade*/
-    grid-template-columns: 1fr 1fr ;/*Divide a div em 2 colunas*/
+    display:flex;
+    justify-content: space-between;/*Transforma um elemento em um container de grade*/
+    max-width: 1216px;
+    min-height: 32px;
+    align-items: flex-end;
 }
 
 
@@ -25,7 +30,7 @@
     max-width: 100%;/*Impede o elemento de ficar maior que o tamanho do pai.*/
 }
 
-img {
+.sessao2 img {
     height: 160px;/*Altura da imagem*/
     width: 292px;/*Largura da imagem*/
 }
@@ -45,4 +50,5 @@ img {
 .titulo svg {
     fill: var(--text-color-secondary);/*Usa uma variavel para mudar a cor do svg*/
     padding-top: 10px;
+    margin-left: -260px;
 }

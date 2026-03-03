@@ -4,6 +4,7 @@
     max-width: 1216px;
     min-height: 856px;
     gap: 32px;
+    margin-top: 70px;
 }
 
 .destaques-ia{
@@ -48,7 +49,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     max-width: 696px;
-    min-width: 800px;
+    min-height: 800px;
     gap:32px
 }
 
@@ -86,7 +87,7 @@
 }
 
 .texto-noticia-ia p{
-    margin-top: 10px;
+    margin-top: -190px;
     color: var(--text-color-secondary);
 }
 
@@ -119,7 +120,7 @@
 .noticias-vc-viu{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap:32px
+    gap: 32px;
 }
 
 .noticia-vc-viu{
