@@ -5,6 +5,7 @@
     gap:16px;/*Espaçamento entre os itens */
     
 }
+
 .coluna2 {
     display: grid;/*Transforma um elemento em um container de grade*/
     grid-template-columns: 1fr 1fr ;/* Divide  a div em 2 colunas*/ 
@@ -42,11 +43,11 @@
     height: 20px;/*Altura do span*/
     border-radius: 4px;/*Deixa a borda arredondada*/
 }
+
 .coluna2 > .img2_hero > .span1, .coluna2 > .img3_hero > .span1, .coluna2 > .img4_hero > .span1, .coluna2 > .img5_hero > .span1 {
     position: absolute;/*permite posicionar o elemento livremente, sobrepondo outros*/
     top: 55%;/*Quantos px de distancia da direita*/
-    left: 10px;/*Quantos px de distancia da esquerda*/
-    height: 20px;/*Altura do span*/
+        left: 10px;/*Quantos px de distancia da esquerda*/
     border-radius: 4px;/*Deixa a borda arredondada*/
 }
 
