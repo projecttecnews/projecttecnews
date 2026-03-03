@@ -1,0 +1,80 @@
+.sessao1{
+    display:grid;/*Transforma um elemento em um container de grade*/
+    grid-template-columns: 1fr 1fr; /* Divide  a div em 2 colunas*/ 
+    margin: 30px;
+    
+}
+.coluna2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+    margin: 0 auto ;
+}
+.img1_hero{
+    position: relative;/*Define o elemento como referência para posicionar outros elementos dentro dele.*/
+}
+
+.img1_hero > img {
+    min-width:608px;
+    min-height: 416px;
+    
+    display:block;/*Faz o elemento ocupar uma linha inteira e aceitar largura e altura.*/
+    max-width: 100%;/*Impede o elemento de ficar maior que o tamanho do pai.*/
+    margin: 0 auto ;
+}
+.img2_hero, .img3_hero, .img4_hero, .img5_hero {
+    position: relative;/*Define o elemento como referência para posicionar outros elementos dentro dele.*/
+}
+
+.img2_hero >img, .img3_hero >img, .img4_hero >img, .img5_hero >img {
+    width: 288px;
+    height: 200px;
+    position: relative;/*Define o elemento como referência para posicionar outros elementos dentro dele.*/
+    display:block;/*Faz o elemento ocupar uma linha inteira e aceitar largura e altura.*/
+    max-width: 100%;/*Impede o elemento de ficar maior que o tamanho do pai.*/
+}
+
+.img1_hero > .span1 {
+    position: absolute;/*permite posicionar o elemento livremente, sobrepondo outros*/
+    top: 65%;/*Quantos px de distancia da direita*/
+    left: 17px;/*Quantos px de distancia da esquerda*/
+    height: 20px;/*Altura do span*/
+    border-radius: 4px;/*Deixa a borda arredondada*/
+}
+.coluna2 > .img2_hero > .span1, .coluna2 > .img3_hero > .span1, .coluna2 > .img4_hero > .span1, .coluna2 > .img5_hero > .span1 {
+    position: absolute;/*permite posicionar o elemento livremente, sobrepondo outros*/
+    top: 55%;/*Quantos px de distancia da direita*/
+    left: 10px;/*Quantos px de distancia da esquerda*/
+    height: 20px;/*Altura do span*/
+    border-radius: 4px;/*Deixa a borda arredondada*/
+}
+
+.img1_hero > h1{
+    display:grid;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    position: absolute;
+    margin-top:-110px;
+    color: var(--text-color-primary);
+    font-size: var(--heading1-size);
+    height: 110px ;
+    width: 97.3%;
+    left: 1.3%;
+    padding-left: 10px;
+    padding-right: 26px;
+
+}
+
+h3{
+    display:grid;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    position: absolute;
+    margin-top:-60px;
+    color: var(--text-color-primary);
+    font-size: var(--heading3-size);
+    height: 60px ;
+    width: 100%;
+    left: 1.%;
+    padding-left: 10px;
+    padding-right: 26px;
+}
