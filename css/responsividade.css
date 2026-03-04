@@ -1,0 +1,172 @@
+/* LARGE PHONE - 478px */
+
+@media (min-width: 478px) and (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* HEADER */
+  .top-header {
+    padding: 15px;
+  }
+
+  .menu h2,
+  .search h2 {
+    display: none;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .navbar a {
+    font-size: 12px;
+  }
+
+  /* SESSÃO 1 */
+  .sessao1 {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  .img1_hero > img {
+    min-width: 100%;
+    min-height: auto;
+  }
+
+  .img1_hero > h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    padding: 16px;
+    font-size: 18px;
+    background: linear-gradient(to top, rgba(0,0,0,.8), rgba(0,0,0,0));
+  }
+
+  .img1_hero > .span1 {
+    top: 135px;
+    left: 15px;
+  }
+
+  .coluna2 {
+    grid-template-columns: 1fr;
+  }
+
+  .img2_hero > img,
+  .img3_hero > img,
+  .img4_hero > img,
+  .img5_hero > img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .img2_hero h3,
+  .img3_hero h3,
+  .img4_hero h3,
+  .img5_hero h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  /* SESSÃO 2 */
+  .sessao2 {
+    margin: 30px 20px;
+  }
+
+  .imagens {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .sessao2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .span3 {
+    margin-left: 0;
+  }
+
+  .titulo svg {
+    margin-left: 0;
+  }
+
+  /* SESSÃO 3 */
+  .sessao3 {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+
+  .noticia-ia {
+    grid-template-columns: 1fr;
+  }
+
+  .noticia-ia img {
+    width: 100%;
+    height: auto;
+  }
+
+  .vc-viu {
+    grid-template-rows: auto;
+  }
+
+  .noticia-vc-viu {
+    grid-template-columns: 1fr 3fr;
+  }
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* DESKTOP - 1440px */
+@media (min-width: 1280px) and (max-width: 1440px) {
+
+    body {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .sessao1 {
+        max-width: 1216px;
+        margin: 40px auto;
+    }
+
+    .sessao2 {
+        max-width: 1216px;
+        margin: 0 auto;
+    }
+
+    .sessao3 {
+        max-width: 1216px;
+        margin: 80px auto;
+    }
+
+    .navbar {
+        gap: 120px;
+    }
+
+    .imagens {
+        gap: 24px;
+    }
+
+    .noticias-ia {
+        gap: 40px;
+    }
+
+    .noticias-vc-viu {
+        gap: 40px;
+    }
+}
